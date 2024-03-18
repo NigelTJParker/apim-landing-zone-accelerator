@@ -2,7 +2,7 @@ targetScope = 'subscription'
 
 // Parameters
 @description('A short name for the workload being deployed alphanumberic only')
-@maxLength(6)
+@maxLength(8)
 param workloadName string = 'apimlz'
 
 @description('The environment for which the deployment is being executed')
